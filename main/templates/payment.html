@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+</head>
+<body>
+	
+    <form method="POST">
+			{% csrf_token %}
+
+			
+			<button type="submit">Envoyer</button>
+    </form>
+    
+</body>
+</html>
